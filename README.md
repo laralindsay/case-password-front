@@ -22,7 +22,7 @@
 
 This project is a login and registration page for password validation and integration with a backend repository of studies developed in Java(https://github.com/laralindsay/case-password-api).
 
-<h2 id="started">📌 Color palette and fonts </h2>
+<h2 id="started">📌 Color palette and fonts  </h2>
 
 <p align="center">
     <img src="./src/assets/img/colors-palettes.png" alt="Image Example" width="400px">
