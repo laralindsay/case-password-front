@@ -1,28 +1,77 @@
-# CasePassword
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
+[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+<h1 align="center" style="font-weight: bold;">Case Validate Password Angular 💻</h1>
 
-## Development server
+![angular][ANGULAR__BADGE]
+![typescript][TYPESCRIPT__BADGE]
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">
+ <a href="#about">About</a> • 
+ <a href="#started">Getting Started</a> • 
+  <a href="#started">App Routes</a> • 
+  <a href="#colab">Collaborators</a> •
+ <a href="#contribute">Contribute</a>
+</p>
 
-## Code scaffolding
+<p align="center">
+    <img src="./src/assets/img/home.png" alt="Image Example" width="400px">
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h2 id="started">📌 About</h2>
 
-## Build
+This project is a login and registration page for password validation and integration with a backend repository of studies developed in Java(https://github.com/laralindsay/case-password-api).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<h2 id="started">📌 Color palette and fonts </h2>
 
-## Running unit tests
+<p align="center">
+    <img src="./src/assets/img/colors-palettes.png" alt="Image Example" width="400px">
+</p>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h2 id="started">🚀 Getting started</h2>
 
-## Running end-to-end tests
+Here you describe how to run your project locally
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h3>Prerequisites</h3>
 
-## Further help
+Here you list all prerequisites necessary for running your project. For example:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# case-password-front
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
+- [Angular CLI](https://angular.io/cli)
+
+<h3>Cloning</h3>
+
+How to clone your project
+
+```bash
+git clone https://github.com/laralindsay/case-password-front.git
+```
+
+<h3>Starting</h3>
+
+How to start your project
+
+```bash
+cd project-name
+npm run start
+```
+
+<h2 id="routes">📍 Application Routes</h2>
+
+Here you can list the main routes of your API, and what are their expected request bodies.
+​
+| route | description  
+|----------------------|-----------------------------------------------------
+| <kbd>/signup</kbd> | Page to sign up
+| <kbd>/login</kbd> | Page to login
+| <kbd>/user</kbd> | Protected page that only logged in users can access
+
+<h2 id="contribute">📫 Contribute</h2>
+
+1. `git clone https://github.com/laralindsay/case-password-front.git`
+2. `git checkout -b feature/NAME`
+3. Follow commit patterns
+4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
+
+
